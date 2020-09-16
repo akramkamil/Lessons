@@ -1,19 +1,32 @@
-header,footer{
+.header-tag, .footer-tag{
     height: 80px;
     color: white;
     text-align: center;
     max-width: 980px;
 }
-header{
+.header-tag{
     background-color: red;
 }
-main{
+.main-tag{
     color: white;
     background-color: blue;
     text-align: center;
     height: 500px;
-    width: 980px;
+    width: 680px;
+    margin-left: 0px; 
+    padding: 0px 10px;  
 }
-footer{
+.sidebar{
+    position: absolute;
+    text-align: center;
+    color: white;
+    height: 500px;
+    width: 300px;
+    margin-left: 680px;
+    background-color: green;
+    top: 88px;
+    overflow-x: hidden;  
+}
+.footer-tag{
     background-color: black;
 }
