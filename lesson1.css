@@ -2,7 +2,7 @@ header,footer{
     height: 80px;
     color: white;
     text-align: center;
-    width: 100%;
+    max-width: 980px;
 }
 header{
     background-color: red;
@@ -12,7 +12,7 @@ main{
     background-color: blue;
     text-align: center;
     height: 500px;
-    width: 100%;
+    width: 980px;
 }
 footer{
     background-color: black;
