@@ -15,21 +15,25 @@
     text-align: center;
 }
 .child1{
+    z-index: 4;
     top: 50px;
     left: 50px;
     background-color:#ff9abc
 }
 .child2{ 
+    z-index: 3;
     top: 100px;
     left: 100px;
     background-color:#f9b9ff
 }
-.child3{    
+.child3{   
+    z-index: 2; 
     top: 150px;
     left: 150px;
     background-color:#cbb8ff
 }
 .child4{
+    z-index: 1;
     top: 200px;
     left: 200px;
     background-color:#acb5ff
