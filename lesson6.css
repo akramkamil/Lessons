@@ -1,33 +1,15 @@
 .dev-tag{
-    position: relative;
-    justify-content: center;
-    height: 500px;
+    display: flex;
+    height: 200px;
     width: 500px;
     background-color: black;
     overflow: hidden;
     
 }
 .span-tag{
-    position: absolute;
-    margin: auto;
+    margin:auto ;
     height: 100px;
     width: 100px;
     text-align: center;
     background-color: red;
-}
-.child1{
-    top: 50px;
-    left: 50px;
-}
-.child2{ 
-    top: 50px;
-    right: 50px;
-}
-.child3{    
-    bottom: 50px;
-    right: 50px;
-}
-.child4{
-    bottom: 50px;
-    left: 50px;
 }
