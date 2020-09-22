@@ -1,15 +1,36 @@
 .dev-tag{
-    display: flex;
-    height: 200px;
+    position: relative;
+    justify-content: center;
+    height: 500px;
     width: 500px;
-    background-color: black;
+    background-color: #f6f5f4;
     overflow: hidden;
     
 }
 .span-tag{
-    margin:auto ;
+    position: absolute;
+    margin: auto;
     height: 100px;
     width: 100px;
     text-align: center;
-    background-color: red;
+}
+.child1{
+    top: 50px;
+    left: 50px;
+    background-color:#ff9abc
+}
+.child2{ 
+    top: 100px;
+    left: 100px;
+    background-color:#f9b9ff
+}
+.child3{    
+    top: 150px;
+    left: 150px;
+    background-color:#cbb8ff
+}
+.child4{
+    top: 200px;
+    left: 200px;
+    background-color:#acb5ff
 }
